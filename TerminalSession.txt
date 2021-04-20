@@ -1,1 +1,22 @@
-
+~/cli-basics-assignment-ZyaireSchool$ pwd
+/home/runner/cli-basics-assignment-ZyaireSchool
+~/cli-basics-assignment-ZyaireSchool$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-ZyaireSchool$ ls
+CLIBasicsFolder  README.md  TerminalSession.txt
+~/cli-basics-assignment-ZyaireSchool$ cd CLIBasicsFolder
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ touch myfile.txt
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ echo Zyaire ICS4U1b >> myfile.txt
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ cat myfile.txt
+Zyaire ICS4U1b
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ ls
+myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ ls ~
+cli-basics-assignment-ZyaireSchool  myfile2.txt  _test_runner.py
+~/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-ZyaireSchool$ rm /home/runner/cli-basics-assignment-ZyaireSchool/CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-ZyaireSchool$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-ZyaireSchool$ ls ~
+cli-basics-assignment-ZyaireSchool  myfile2.txt  _test_runner.py
